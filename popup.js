@@ -9,8 +9,8 @@ function generateQR() {
         } else {
             qr = new QRCode(document.getElementById("qrcode"), {
                 text: text,
-                width: 200,
-                height: 200
+                width: 230,
+                height: 230
             });
         }
         document.getElementById("downloadBtn").style.display = "block";
