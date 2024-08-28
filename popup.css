@@ -1,0 +1,73 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+input {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 2px solid black;
+  outline-color: rgb(13, 81, 225);
+}
+::placeholder {
+  color: black;
+}
+span {
+  color: rgb(13, 81, 225);
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(13, 81, 225);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 10px;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: rgba(13, 80, 225, 0.795);
+  transition: 0.2s ease-in-out;
+}
+#downloadBtn {
+  margin-top: 15px;
+}
+#qrcode {
+  margin-top: 20px;
+  text-align: center;
+}
+#qrcode img {
+  margin: 0 auto;
+  display: block;
+}

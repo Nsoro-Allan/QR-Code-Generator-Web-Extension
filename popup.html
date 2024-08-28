@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC - QR Code Generator</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script src="./qrcode.min.js"></script>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="./icon.png" class="icon" alt="QR Code Icon" />
+      </div>
+      <h1><span>{</span>AC - QR Code Generator<span>}</span></h1>
+      <input type="text" id="text" placeholder="Enter text or URL" required />
+      <button id="generateBtn">Generate QR Code</button>
+      <div id="qrcode"></div>
+      <button id="downloadBtn" style="display: none;">Download QR Code</button>
+    </div>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
